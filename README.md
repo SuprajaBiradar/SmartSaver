@@ -55,11 +55,11 @@ Whether you're a student trying to stay on budget, a professional managing month
 SmartSaver/
 ├── public/
 ├── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Pages like Dashboard, Login, Signup
-│ ├── styles/ # CSS and theme styles
-│ ├── firebase.js # Firebase config and setup
-│ └── App.jsx # Main app routing
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # Pages like Dashboard, Login, Signup
+│   ├── styles/         # CSS and theme styles
+│   ├── firebase.js     # Firebase config and setup
+│   └── App.jsx         # Main app routing
 ├── package.json
 ├── README.md
 └── index.html
