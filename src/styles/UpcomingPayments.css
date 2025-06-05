@@ -1,0 +1,92 @@
+.upcoming-payments-container {
+    width: 100vw;
+    height: 100vh;
+    padding: 3rem 2rem;
+    border-radius: 0;
+    background: linear-gradient(135deg, #F3E5F5, #9575CD);
+    box-shadow: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.upcoming-payments-container h3 {
+    color: #5E35B1;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.upcoming-payments-form {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f3f7;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(94, 53, 177, 0.15);
+}
+
+.upcoming-payments-form label {
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    color: #7c44dc;
+}
+
+.upcoming-payments-form input,
+.upcoming-payments-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1.5px solid #1c1111;
+    /* Replaced Accent Light Green with white */
+    border-radius: 10px;
+    margin-top: 0.4rem;
+    font-size: 1rem;
+    background-color: #F3E5F5;
+    color: #311B92;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.upcoming-payments-form input:focus,
+.upcoming-payments-form textarea:focus {
+    outline: none;
+    border-color: #FFFFFF;
+    /* Replaced Accent Green with white */
+    background-color: #FFFFFF;
+    /* Replaced green background with white */
+}
+
+.upcoming-payments-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.upcoming-payments-form button {
+    padding: 0.85rem;
+    background-color: #7E57C2;
+    color: #F3E5F5;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-weight: 700;
+    box-shadow: 0 6px 16px rgba(126, 87, 194, 0.4);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.upcoming-payments-form button:hover {
+    background-color: #512DA8;
+    color: #F3E5F5;
+}
+
+.upcoming-payments-form button:disabled {
+    background-color: #D1C4E9;
+    color: #bbb;
+    cursor: not-allowed;
+}

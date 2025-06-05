@@ -1,0 +1,100 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #F3E5F5;
+    color: #311B92;
+}
+
+.best-deal-container {
+    padding: 20px;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #F3E5F5, #9575CD);
+    border-radius: 0;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.best-deal-container h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #5E35B1;
+}
+
+.category-filter {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.category-filter select {
+    padding: 8px 14px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1.5px solid #7E57C2;
+    background-color: #FFFFFF;
+    color: #311B92;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.category-filter select:focus {
+    outline: none;
+    border-color: #512DA8;
+}
+
+.deals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.deal-card {
+    border: 2px solid #FFFFFF;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 10px rgba(94, 53, 177, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.deal-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 4px 6px 16px rgba(94, 53, 177, 0.35);
+}
+
+.deal-card h3 {
+    margin-top: 0;
+    color: #9575CD;
+    font-size: 1.2rem;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #E53935;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.visit-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 14px;
+    background-color: #7E57C2;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.visit-link:hover {
+    background-color: #512DA8;
+}

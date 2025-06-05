@@ -1,0 +1,106 @@
+.dashboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.dashboard-page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    color: #333333;
+    padding: 3rem 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+.dashboard-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #5c32ae;
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.6px;
+}
+
+.dashboard-subheading {
+    font-size: 1.8rem;
+    color: #8d67cf;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.dashboard-description {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.65;
+}
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.dashboard-card {
+    background: #f3e5f5;
+    border-radius: 18px;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 6px 18px rgba(103, 58, 183, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    border: 1px solid #e1bee7;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 10px 30px rgba(103, 58, 183, 0.2);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    color: #7E57C2;
+    margin-bottom: 1.2rem;
+}
+
+.dashboard-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.dashboard-card h3 a {
+    color: #5E35B1;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.dashboard-card h3 a:hover {
+    color: #311B92;
+    text-decoration: underline;
+}
+
+.dashboard-card p {
+    font-size: 0.97rem;
+    color: #444;
+    margin-top: 0.25rem;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #a88aec;
+    color: #4b17b2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border-top: 1px solid #e1bee7;
+    box-shadow: 0 -2px 10px rgba(94, 53, 177, 0.05);
+}

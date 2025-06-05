@@ -1,0 +1,134 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #F3E5F5, #9575CD);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #311B92;
+}
+
+.statistical-analysis-container {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #F3E5F5, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.statistical-analysis-container h2 {
+    font-size: 2rem;
+    color: #5E35B1;
+    margin-bottom: 30px;
+    text-align: center;
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+.summary {
+    text-align: center;
+    background: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(94, 53, 177, 0.15);
+    margin-bottom: 25px;
+    width: 90%;
+    max-width: 600px;
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.summary h3 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #5E35B1;
+}
+
+.summary p {
+    margin-top: 8px;
+    font-weight: 500;
+    color: #5E35B1;
+}
+
+.chart-type-selector {
+    margin: 25px 0;
+    animation: fadeInUp 0.7s ease forwards;
+}
+
+.chart-type-selector label {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 10px;
+    color: #5E35B1;
+}
+
+.chart-type-selector select {
+    padding: 10px 14px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #9575CD;
+    background-color: #F3E5F5;
+    color: #5E35B1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.chart-type-selector select:hover,
+.chart-type-selector select:focus {
+    border-color: #7E57C2;
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+.chart-container {
+    width: 90%;
+    max-width: 800px;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 40px;
+    color: #7E57C2;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+
+    .chart-container,
+    .summary {
+        width: 95%;
+    }
+}
