@@ -71,20 +71,27 @@ SmartSaver/
 ## ⚙️ Getting Started
 
 ### 1. Clone the Repository
+```
 git clone https://github.com/SuprajaBiradar/SmartSaver.git
 cd SmartSaver
+```
 
 ### 2. Install Dependencies
+```
 npm install
+```
 
 ### 3. Configure Firebase
+```
 Go to Firebase Console
 Create a project and enable:
 Firestore
 Authentication (Email/Password)
 Storage
 Replace the config in firebase.js with your Firebase credentials
+```
 
 ### 4. Run the App
+```
 npm run dev
-
+```
