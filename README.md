@@ -65,7 +65,7 @@ SmartSaver/
 ├── README.md
 └── index.html
 
-
+```
 ---
 
 ## ⚙️ Getting Started
