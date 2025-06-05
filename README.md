@@ -52,6 +52,7 @@ Whether you're a student trying to stay on budget, a professional managing month
 
 ## 📁 Folder Structure
 
+```
 SmartSaver/
 ├── public/
 ├── src/
@@ -63,6 +64,7 @@ SmartSaver/
 ├── package.json
 ├── README.md
 └── index.html
+
 
 ---
 
